@@ -1,27 +1,5 @@
 /*
- * Commands to compile and run on Mac
- *     gcc -o game -L/usr/X11R6/lib -I/usr/X11R6/include -lX11 hello.c
- * (you are allowed to rename the hello.c program
- * game.c then you have to change the command above
- *
- * ./game
- *
- * Read the provided code, identifying what each part
- * contributes
- *
- * Milestone for 01/30 
- *
- *    - Add to the display of "Urrp" for each mouse click a rectangle:
- *    a rectangle at the mouse click and the string "Urrp"  below.
- * 
- *    - Search this file for 'bottle' (without quote).
- *    The variable is a toggle, i.e. initially 0 it is turned to !bottle
- *    when the 'b' key is pressed (focus on the ./hello program)
- *    - When bottle=1 instead of inserting the rectangle and
- *    string in the drawing components, a bottle should be inserted.
- *    Add an insert function for it and add a case in the repaint code.
- *
- *    - Make a splashscreen for the Jinnee game 
+ * Basic drawing of circles, rectangeles, and strings was written by Elodie Fourquet
  */
 
 #include <stdio.h>
